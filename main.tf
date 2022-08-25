@@ -62,7 +62,7 @@ resource "google_bigtable_instance" "bt_prod_instance675" {
     cluster_id   = "bt-instance-cluster-east"
     storage_type = "HDD"
     zone         = "us-east1-b"
-    kms_key_name = google_kms_crypto_key.bt_key675.id
+    kms_key_name = google_kms_crypto_key.bt_key676.id
     autoscaling_config {
       min_nodes  = 1
       max_nodes  = 5
